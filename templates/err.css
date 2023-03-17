@@ -1,0 +1,10 @@
+.button {
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5em;
+    
+}
+.button:hover{
+    background-color: aquamarine;
+}

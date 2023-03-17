@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Task</title>
+</head>
+<body>
+    <form class="text-form">
+        <p class="id">Task Id:</p>
+        <label for="Name">Name:</label>
+        <input type="text" name="Name" class="text"><br><br>
+        <label for="Completed">Completed:</label>
+        <input type="checkbox" name="Completed" class="box"><br><br>
+        <input type="submit" value="Edit" class="submit"><br>
+        <p class="message"></p><br>
+    </form>
+    <a href="/"><button class="button">Go back to all tasks</button></a>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="module" src="./edit.js"></script>
+</body>
+</html>
